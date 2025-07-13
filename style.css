@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #fee2b3;
+    justify-content: space-between;
+    align-items: center;
+}
+
+strong {
+    font-size: 20px;
+    padding: 28px;
+    margin: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+}
+
+/* main-1 */
+
+
+.parent-main1 {
+    display: flex;
+    background-image: url(Image/hero_bg_1.jpg);
+    height: 770px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.public-heading {
+    color: white;
+    height: 120px;
+    width: 370px;
+    font-size: 50px;
+
+}
+
+.public-title {
+    font-size: 16px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-heading {
+    height: 24px;
+    width: 290px;
+    color: #364D59;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-completion {
+    height: 419px;
+    width: 370px;
+    background-color: #FFFFFF;
+    border-radius: 10PX;
+    padding: 40px;
+    
+}
+
+input {
+    height: 55px;
+    width: 290px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    padding-right: 40px;
+    text-indent: 10px;  /* move placeholder text slight right */
+
+}
+.btn
+{
+    height: 57.33px;
+    width: 330px;
+    background-color: #FEE2B3;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 22px;
+    border: none;
+    
+}
+h3
+{
+    padding-right:0px;
+}
+
+/* Practise Area */
+
+.parent-main2
+{
+    margin-top: 40px;
+}
+.law-type
+{
+    width: 80%;
+    margin: 20px auto;
+}
+.default-image
+{
+    height: 50px;
+    width: 50px;
+}
+
+.Bankruptcy    
+{
+    background-color: #f3f1edd7;
+    height: 150px;
+    width: 210px;
+    padding: 40px;
+    border-radius: px;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+.type
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.parent-h2
+{
+    text-align: center;
+    font-size: 32px;
+    
+}
+.parent-p
+{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
