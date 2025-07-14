@@ -210,3 +210,80 @@ h3
     
    
 }
+/* customer rerview */
+
+/* Main container */
+.customer-reviews {
+  background-color: whitesmoke;
+  padding: 30px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Heading */
+.customer-reviews h3 {
+  color: rgb(70, 25, 25);
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* Flex container for review cards */
+.reviews-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Wrap to next line on small screens */
+}
+
+/* Individual review card */
+.reviews {
+  background-color: #364D59;
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+
+/* Profile section */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Name and title inside the card */
+.review {
+  display: flex;
+  flex-direction: column;
+}
+
+.review .name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.review .title {
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+.reviews p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+}
