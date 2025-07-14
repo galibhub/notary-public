@@ -106,7 +106,7 @@ h3
 
 .parent-main2
 {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .law-type
 {
@@ -148,4 +148,65 @@ h3
     text-align: center;
     font-size: 16px;
     margin-top: 5px;
+}
+ /* parent-main3 */
+.parent-main3
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+   
+    background-color: #f2f6f8;
+    padding: 80px 0px;
+    margin-top: 50px;
+}
+.two-images
+{
+  display: flex;
+  gap: 30px;
+  border-radius: 5px;
+}
+.two-images img
+{
+    width: 250px;
+    height: auto;
+  
+}
+.legal-solution-heading h1
+{
+    font-size: 28px;
+    color: #364D59;
+    margin-top: 50px;
+}
+
+.legal-solution-heading p
+{
+    
+    margin-top: 15px;
+}
+
+
+.legal-solution-heading button
+{
+  margin-top: 30px;
+}
+.legal-solution-heading span
+{
+    color: rgba(196, 77, 77, 0.733);
+}
+.legal-solution-title 
+{
+    color: #364D59;
+    font-size: 16px;
+}
+.appoinmnet
+{
+    height: 50px;
+    width: 204px;
+    background-color: #FEE2B3;
+
+    border-radius: 5px;
+    border: none;
+    
+   
 }
