@@ -313,7 +313,10 @@ h3 {
 .legal-solutions p {
     padding-top: 10px;
 }
-
+.solution-input
+{
+    margin: 90px;
+}
 /* footer */
 
 footer {
@@ -360,4 +363,73 @@ footer {
     text-decoration: none;
     margin-bottom: 4px;
     line-height: 1px;
+}
+
+.about
+{
+    padding: 20px
+}
+
+
+/* responsive */
+
+@media screen and (max-width:576px){
+      .customer-reviews
+      {
+        flex-direction: column;
+
+        
+        
+      }
+      .parent-main4
+      {
+        flex-direction: column;
+      }
+      .parent-main4 > div > h1,p
+      {
+        padding-left: 90px;
+      }
+      .parent-main4 >img 
+      {
+        padding-left: 90px;
+      }
+      .solution-input >input 
+      {
+        margin-left: 5px;
+      }
+
+      .parent-main3
+      {
+        flex-direction: column;
+
+      }
+      .legal-solution-heading > h1
+      {
+           text-align: center;
+      }
+       .legal-solution-heading > button {
+        width: 80%;
+        padding: 10px 20px;
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: 70px;
+        margin-right: auto;
+        display: block;
+    }
+    .parent-main1
+    {
+        flex-direction: column;
+       
+    }
+    .public >h1
+    {
+          text-align: center;
+    }
+    .public-title
+    {
+        padding-left: 0;
+    }
+
+    
+    
 }
